@@ -1,0 +1,45 @@
+AK-47 3D: relatório
+
+cano                     356.0 x  20.0 x   20.0 mm     976 triângulos  fechada
+quebra_chamas             34.4 x  20.4 x   20.4 mm    1318 triângulos  fechada
+massa_mira                27.0 x  20.0 x   67.0 mm    3520 triângulos  fechada
+bloco_gas                 38.0 x  21.0 x   50.0 mm    1312 triângulos  fechada
+tubo_gas                 192.0 x  19.0 x   19.0 mm     460 triângulos  fechada
+vareta                   340.0 x   6.0 x    6.0 mm     120 triângulos  fechada
+anel_guarda_mao           11.0 x  28.4 x   28.4 mm     320 triângulos  fechada
+guarda_mao_superior      104.0 x  27.0 x   27.5 mm    1228 triângulos  fechada
+guarda_mao_inferior      167.5 x  34.0 x   38.6 mm    4140 triângulos  fechada
+retentor                  14.0 x  32.0 x   39.0 mm    1172 triângulos  fechada
+bloco_alca                45.0 x  24.0 x   26.0 mm    1284 triângulos  fechada
+alca_mira                 54.0 x  14.8 x    8.3 mm    2588 triângulos  fechada
+caixa                    264.0 x  29.0 x   51.0 mm    2680 triângulos  fechada
+rebites                  241.4 x  30.2 x   26.4 mm    2304 triângulos  fechada
+tampa                    257.0 x  30.6 x   25.6 mm    1572 triângulos  fechada
+seletor                  118.8 x   4.2 x   25.9 mm    2316 triângulos  fechada
+ferrolho                 153.0 x  47.8 x   26.5 mm    1776 triângulos  fechada
+gatilho                   11.5 x   5.2 x   29.7 mm    1284 triângulos  fechada
+guarda_mato               66.0 x  11.0 x   40.6 mm    1788 triângulos  fechada
+botao_pente                8.5 x   9.0 x   23.8 mm    1256 triângulos  fechada
+punho                     76.0 x  29.2 x  118.1 mm    4140 triângulos  fechada
+coronha                  242.2 x  37.0 x  135.0 mm    5244 triângulos  fechada
+soleira                   28.9 x  38.0 x  109.8 mm    1148 triângulos  fechada
+pente                    142.1 x  28.0 x  188.8 mm    8720 triângulos  fechada
+estojo_topo               38.8 x  11.3 x   11.3 mm     816 triângulos  fechada
+bala_topo                 23.0 x   7.9 x    7.9 mm     400 triângulos  fechada
+
+Total: 28 peças, 53882 triângulos (sem contar as escondidas)
+Comprimento 889 mm, altura 255 mm (com o pente), largura 57 mm
+Texturas: madeira.png e madeira_punho.png, geradas por código; o resto é cor lisa.
+As peças se sobrepõem de propósito nas junções: cada uma é um sólido fechado, não uma malha única.
+
+Animações (30 qps): tiro 1 a 4, recarregar 10 a 84
+Eventos (quadro da faixa, 1 = primeiro): tiro: disparo 2; recarregar: pente_sai 18, troca 35, pente_entra 54, ferrolho 64
+Cruzamentos entre peças (triângulos que se tocam; repouso -> no momento):
+  tiro, ferrolho no meio (quadro 2): nada novo
+  tiro, ferrolho atrás (quadro 3): nada novo
+  recarga, pente girando para sair (quadro 31): nada novo
+  recarga, pente saindo (quadro 36): nada novo
+  recarga, pente novo engatando (quadro 56): nada novo
+  recarga, pente novo girando (quadro 60): nada novo
+  recarga, ferrolho atrás (quadro 70): nada novo
+No repouso: 

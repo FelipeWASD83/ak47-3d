@@ -1,0 +1,38 @@
+{
+  "raiz": "ak47",
+  "fps": 30,
+  "faixas": {
+    "repouso": {
+      "inicio": 1,
+      "quadros": 2,
+      "eventos": {}
+    },
+    "tiro": {
+      "inicio": 1,
+      "quadros": 4,
+      "eventos": {
+        "disparo": 2
+      }
+    },
+    "recarregar": {
+      "inicio": 10,
+      "quadros": 75,
+      "eventos": {
+        "pente_sai": 18,
+        "troca": 35,
+        "pente_entra": 54,
+        "ferrolho": 64
+      }
+    }
+  },
+  "pecas": [
+    "ferrolho",
+    "gatilho",
+    "botao_pente",
+    "pente",
+    "estojo_topo",
+    "bala_topo",
+    "clarao",
+    "estojo_ejetado"
+  ]
+}
